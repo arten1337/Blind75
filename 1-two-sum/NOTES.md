@@ -2,7 +2,7 @@
 =============
 The brute force approach is simple. Loop through each element x and find if there is another value that equals to target - x.
 
-### Time Complexity - O(n<sup>2</sup>), for each element, we try to find its complement by looping through the rest of the array which takes O(n<sup>2</sup> time.
+### Time Complexity - O(n<sup>2</sup>), for each element, we try to find its complement by looping through the rest of the array which takes O(n) time. So total Time Complexity = O(n<sup>2</sup>).
 ### Space Complexity - O(1)
 
 Approach 2: Sort and Two Pointer
