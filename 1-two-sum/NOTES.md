@@ -12,6 +12,7 @@ Sort the array in non decreasing order. Pointer low = first index of array, high
 If sum is less than target, increment low, if sum is more than target, decrement high.
 
 Time Complexity - O(nlogn), sorting of array, O(n) for using Two pointer Technique, so total Time Complexity = O(nlogn).
+
 Space Complexity - O(1)
 
 Approach 3: Hash Table
@@ -20,4 +21,5 @@ Approach 3: Hash Table
 Create a Hash Table. Store array element and its index in the hashtable. Also check if target - array element is present in the hashtable. If yes, the return the index of both the elements.
 
 Time Complexity - O(n), iterating the array once, O(1) for adding and searching element in HashTable. So total Time Complexity = O(n)
+
 Space Complexity - O(n), used in creating the HashTable.
