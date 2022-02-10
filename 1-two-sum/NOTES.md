@@ -2,8 +2,8 @@
 =============
 The brute force approach is simple. Loop through each element x and find if there is another value that equals to target - x.
 
-### Time Complexity ### - O(n<sup>2</sup>)
-### Space Complexity ### - O(1)
+### Time Complexity - O(n<sup>2</sup>)
+### Space Complexity - O(1)
 
 Approach 2: Sort and Two Pointer
 =============
