@@ -14,3 +14,9 @@ Approach 2: Sliding Window with Hash Table
 We can add characters of the string to a HashMap. We map the character to its index + 1(explained below). If a certain character is already present in the Map, we know that there is a repeating character in the current substring. Now we want to start the count of the substring again, and that too after that repeating character. This is why we map index + 1 to the character.
 
 At each step we store the maximum length substring we have found.
+
+Time Complexity - O(n), we loop through the string once, storing and searching the HashMap requires O(1) in average cases. Therefore total Time Complexity is O(n).
+
+Space Complexity - O(1), we only map English letters, digits, symbols and spaces to its index value, which can take atmost O(128) which is same as O(1).
+
+
